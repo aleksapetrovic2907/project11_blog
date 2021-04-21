@@ -1,0 +1,13 @@
+<div class="row">
+<p id="notice"><%= notice %></p>
+<h3><%= @article.title %></h3>
+
+<p>
+  <strong></strong>
+  <%= @article.body %>
+</p>
+
+<%= link_to 'Edit', edit_article_path(@article), class:"btn btn-success mb-1"%>
+<%= link_to 'Back', articles_path, class:"btn btn-secondary" %>
+
+</div>
